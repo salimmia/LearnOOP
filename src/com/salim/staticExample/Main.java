@@ -9,5 +9,31 @@ public class Main {
         Human tomal = new Human("Tomal", 21, 20000, false);
         System.out.println(tomal.population);
         System.out.println(Human.population);
+
+//        gretting();
+
+        fun();
+
+        Main obj = new Main();
+
+        obj.fun2();
     }
+
+    static void fun(){
+//        gretting();
+
+        Main funn = new Main();
+
+        funn.gretting();
+    }
+
+    void fun2(){
+        gretting();
+    }
+
+     void gretting(){
+        System.out.println("I am gretting");
+    }
+
+
 }
