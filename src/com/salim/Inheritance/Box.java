@@ -22,4 +22,14 @@ public class Box {
         this.w = w;
         this.h = h;
     }
+
+    Box(Box old){
+        this.l = old.l;
+        this.w = old.w;
+        this.h = old.h;
+    }
+
+    public void information(){
+        System.out.println("Running the information");
+    }
 }
